@@ -1,0 +1,57 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.form{
+    background-color: black;
+    color: white;
+    width: 450px;
+    height: 45vh;
+    margin: 150px 150px;
+    padding: 0.5rem 0.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.formItem{
+    margin: 0px 10px;
+}
+
+.btn{
+    margin: 5px;
+    padding: 10px;
+} */
+
+
+Form{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.text-muted{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.booking{
+    height: 80vh;
+    background-image: url("../../Pages/Homepage/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}

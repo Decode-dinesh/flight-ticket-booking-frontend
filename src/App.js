@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{ useState } from 'react';
+import Allflights from "./components/Allflights/Allflights";
+import Homepage from "./Pages/Homepage/Homepage";
+import {BrowserRouter, Routes, Route, useNavigate} from 'react-router-dom';
+import Destination from "./components/Destination/Destination";
+import BookingDetails from "./components/bookingDetail/BookingDetails";
+import AllBooking from "./components/allbooking/AllBooking";
+import Signup from "./Pages/Signup/Signup";
+import Signin from "./Pages/Signin/Signin";
+
+export const context = React.createContext();
 
 function App() {
+
+  const [log, setLog] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+    <BrowserRouter>
+        <context.Provider value={[log, setLog]} >
+      <Routes>
+          <Route exact path="/" element={ <Signin /> } /> 
+          <Route exact path="/Signup" element={<Signup/>} />
+          <Route exact path="/homepage" element={ <Homepage /> }/>
+          <Route exact path="/flights" element={ <Allflights />} />
+          <Route exact path="/destination" element={ <Destination /> } />
+          <Route exact path="/bookingdetails" element={ <BookingDetails /> } />
+          <Route exact path="/allbooking" element={ <AllBooking /> } />
+      </Routes>
+        </context.Provider>
+    </BrowserRouter>     
+    
   );
 }
 

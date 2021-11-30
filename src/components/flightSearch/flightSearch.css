@@ -1,0 +1,23 @@
+.flights{
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.icon{
+    font-size: 32px;
+}
+
+
+.label{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.input{
+    margin: 10px;
+    padding: 5px 7px;
+}

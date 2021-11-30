@@ -1,0 +1,24 @@
+Form{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.text-muted{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.signin{
+    height: 80vh;
+    background-image: url("../Homepage/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
