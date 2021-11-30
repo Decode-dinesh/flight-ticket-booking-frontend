@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import Allflights from "./components/Allflights/Allflights";
 import Homepage from "./Pages/Homepage/Homepage";
-import {BrowserRouter, Routes, Route, useNavigate} from 'react-router-dom';
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
 import Destination from "./components/Destination/Destination";
 import BookingDetails from "./components/bookingDetail/BookingDetails";
 import AllBooking from "./components/allbooking/AllBooking";
