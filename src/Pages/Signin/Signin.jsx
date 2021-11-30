@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './signin.css';
 import axios from 'axios';
@@ -35,7 +35,7 @@ export default function Signin(props) {
         }).catch(error => {
           console.log("something went wrong")
         });
-       
+       console.log(log);
     }
 
     return (

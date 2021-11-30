@@ -1,10 +1,9 @@
-import React,{useState, useEffect} from 'react';
+import React,{ useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import './bookingdetails.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import { Link } from 'react-router-dom';
 
 import Footersection from '../Footersection';
 import Navheader from '../Navheader';

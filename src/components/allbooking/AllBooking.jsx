@@ -24,7 +24,7 @@ const BookingsHelper = ({id}) => {
             setDate(response.data.date.slice(0,10))
             setFare(response.data.fare)
         })
-    }, [])
+    },[])
     return(
         <>
             <td>{flightName}</td> 

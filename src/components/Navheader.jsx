@@ -4,9 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 import Container from 'react-bootstrap/Container';
-import Allflights from './Allflights/Allflights';
 import { useNavigate } from 'react-router-dom';
-import { getUser, removeUserSession } from '../utils/Common';
+import { removeUserSession } from '../utils/Common';
 
 
 export default function Navheader() {

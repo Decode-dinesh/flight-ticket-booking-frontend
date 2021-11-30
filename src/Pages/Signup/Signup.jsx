@@ -21,7 +21,7 @@ export default function Signup() {
         e.preventDefault();
         setError(false);
         try{
-            const res = await axios.post("https://flightticket-booking.herokuapp.com/signup",{
+            await axios.post("https://flightticket-booking.herokuapp.com/signup",{
                 fullname,
                 username,
                 email,
