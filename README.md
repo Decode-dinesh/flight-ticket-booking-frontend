@@ -1,3 +1,12 @@
+
+![flightBooking](https://user-images.githubusercontent.com/80633667/144021312-6bd1b0d3-f59a-47e5-bb65-35ef53e04d75.gif)
+animated gif
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -60,6 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![flightBooking](https://user-images.githubusercontent.com/80633667/144021170-9a3d9365-73fc-4e5c-970f-f8df4df5e53c.gif)
 
 ### Deployment
 
