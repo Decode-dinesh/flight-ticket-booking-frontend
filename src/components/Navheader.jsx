@@ -28,12 +28,12 @@ export default function Navheader() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/homepage">Ticket Booking</Navbar.Brand>
+                <Navbar.Brand to="/homepage">Ticket Booking</Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link onClick={AllflightsFunc} href="/flights">Available Flights</Nav.Link>
+                    <Nav.Link onClick={AllflightsFunc} to="/flights">Available Flights</Nav.Link>
                     <Nav.Link href="#features">Features</Nav.Link>
                     <Nav.Link href="#pricing">Pricing</Nav.Link>
                 </Nav>
